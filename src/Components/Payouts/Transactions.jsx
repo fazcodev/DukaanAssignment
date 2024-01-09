@@ -76,14 +76,13 @@ const Transactions = () => {
       <div className="w-full px-3 pt-3 pb-2 bg-white rounded-lg shadow flex-col justify-start">
         <div className="flex-col justify-start gap-3 flex">
           <div className="self-stretch justify-between items-center inline-flex">
-            <div className="px-4 py-2.5 bg-white rounded border border-zinc-300 justify-start items-end gap-2 flex">
+            <div className="w-60 px-3.5 py-2.5 bg-white rounded border border-zinc-300 justify-start items-end gap-2 flex">
               <img className="w-3.5 h-3.5" src="/assets/Dashboard/search.svg" />
-              <div
+              <input
                 style={{ fontFamily: "Galano Grotesque" }}
-                className="text-neutral-400 text-sm font-normal leading-tight"
-              >
-                Order ID or transaction ID
-              </div>
+                className=" outline-none w-full text-sm font-normal leading-normal"
+                placeholder="Order ID or transaction ID"
+              />
             </div>
             <div className="justify-end items-center gap-4 flex">
               <div className="px-3 py-1.5 bg-white border rounded  border-zinc-300 justify-start items-center gap-1.5 flex">

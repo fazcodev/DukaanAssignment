@@ -23,9 +23,8 @@ const Header = () => {
       </div>
       <div className="w-[400px] self-stretch px-4 py-[9px] bg-zinc-100 rounded-md justify-start items-center gap-2 flex">
         <img className="w-4 h-4" src = '/assets/Dashboard/search.svg' />
-        <div className="text-zinc-500 text-[15px] font-normal leading-snug">
-          Search features, tutorials, etc.
-        </div>
+        <input type="text" placeholder="Search features, tutorials, etc." className="outline-none w-full bg-zinc-100 text-zinc-500 text-[15px] font-normal leading-snug"/>
+          
       </div>
       <div className="flex-1 h-10 justify-end items-start gap-2 flex">
         <div className="justify-start items-start gap-3 flex">
