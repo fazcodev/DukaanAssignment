@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-full h-16 px-8 py-3 bg-white border-b border-zinc-300 justify-between items-center gap-4 inline-flex">
+    <div className="w-full sticky z-50 top-0 h-16 px-8 py-3 bg-white border-b border-zinc-300 justify-between items-center gap-4 inline-flex">
       <div className="flex-1 justify-start items-center gap-4 flex">
         <div
           style={{ fontFamily: "Galano Grotesque" }}

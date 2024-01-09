@@ -5,7 +5,7 @@ import Transactions from "./Transactions";
 const Payouts = ()=>{
 
     return (
-        <div className="w-full">
+        <div className="max-h-screen overflow-scroll">
             <Header/>
             <div className="p-7 flex-col justify-between">
                 <Overview/>
